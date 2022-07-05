@@ -11,7 +11,7 @@ At single row level, postgresql serializes operations, so we can be safe concurr
 
 2. Log into DB and create contexts table
 
-```db
+```sql
 % psql -h localhost -d postgres -U postgres -p 5432
 postgres=# create table contexts
 (
